@@ -13,6 +13,6 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="159dp"
         android:text="Login with Facebook"
-        android:onClick="loginTapped" />
+        android:onClick="onLoginTapped" />
     
     </RelativeLayout>
