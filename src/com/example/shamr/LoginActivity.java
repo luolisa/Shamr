@@ -16,7 +16,7 @@ public class LoginActivity extends Activity {
 		setContentView(R.layout.activity_login);
 	}
 	
-	public void onLoginTapped(View v) {
+	public void loginTapped(View v) {
 		Intent intent = new Intent(this, SuccessActivity.class);
 		startActivity(intent);
 	}
