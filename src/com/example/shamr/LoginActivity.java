@@ -35,7 +35,7 @@ public class LoginActivity extends ActionBarActivity {
 		return super.onOptionsItemSelected(item);
 	}
 	
-	public void onLoginTapped(View v) {
+	public void loginTapped(View v) {
 		Intent intent = new Intent(this, SuccessActivity.class);
 		startActivity(intent);
 	}
