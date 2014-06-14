@@ -7,5 +7,7 @@
     <string name="title_activity_splash_screen">SplashScreenActivity</string>
     <string name="title_activity_login">LoginActivity</string>
     <string name="title_activity_success">SuccessActivity</string>
+    <string name="fb_login_button">Login with Facebook</string>
+    <string name="login_dialog">Harness the power of self-shaming today.</string>
 
 </resources>
