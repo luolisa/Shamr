@@ -14,11 +14,11 @@ public class LoginActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_login);
 
-		SharedPreferences prefs = this.getSharedPreferences(
+		SharedPreferences prefs = getApplicationContext().getSharedPreferences(
 			      "com.example.shamr", Context.MODE_PRIVATE);
 		String insideKey = "com.example.app.inside";
 
-		if (prefs.contains(insideKey)) {
+		if (prefs.contains(insideKey) && prefs.getBoolean(insideKey, false) == true) {
 			Intent intent = new Intent(this, GraphActivity.class);
 			startActivity(intent);
 		}
@@ -27,6 +27,7 @@ public class LoginActivity extends Activity {
 	public void onLoginTapped(View v) {
 		Intent intent = new Intent(this, SuccessActivity.class);
 		startActivity(intent);
+		finish();
 	}
 
 }

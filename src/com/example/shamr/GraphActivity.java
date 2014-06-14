@@ -43,10 +43,10 @@ public class GraphActivity extends ActionBarActivity {
 	}
 
 	public void onResetClicked(View v) {
-		SharedPreferences prefs = this.getSharedPreferences(
+		SharedPreferences prefs = getApplicationContext().getSharedPreferences(
 			      "com.example.shamr", Context.MODE_PRIVATE);
 		String insideKey = "com.example.app.inside";
-		prefs.edit().remove(insideKey);
-		System.exit(0);
+		prefs.edit().putBoolean(insideKey, false);
+		finish();
 	}
 }

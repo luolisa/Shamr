@@ -32,7 +32,7 @@ public class SuccessActivity extends Activity {
 	public void continueTapped(View v) {
 		Intent intent = new Intent(this, CameraActivity.class);
 		startActivity(intent);
-
+		finish();
 	}
 
 }

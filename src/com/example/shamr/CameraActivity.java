@@ -148,5 +148,6 @@ public class CameraActivity extends Activity {
   public void onCameraButtonClicked(View v){
 	  Intent i = new Intent(this, ConfirmationActivity.class);
 	  startActivity(i);
+	  finish();
   }
 }

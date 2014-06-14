@@ -16,12 +16,12 @@ public class ConfirmationActivity extends ActionBarActivity {
 	}
 	
 	public void onConfirmClicked(View v){
-		SharedPreferences prefs = this.getSharedPreferences(
+		SharedPreferences prefs = getApplicationContext().getSharedPreferences(
 			      "com.example.shamr", Context.MODE_PRIVATE);
 		String insideKey = "com.example.app.inside";
 
 		prefs.edit().putBoolean(insideKey, true).commit();
-		System.exit(0);
+		finish();
 	}
 
 
