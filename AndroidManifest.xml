@@ -16,6 +16,14 @@
         <activity
             android:name="com.example.shamr.MainActivity"
             android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.shamr.SplashScreenActivity"
+            android:label="@string/title_activity_splash_screen" >
+        </activity>
+        <activity
+            android:name="com.example.shamr.LoginActivity"
+            android:label="@string/title_activity_login" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
