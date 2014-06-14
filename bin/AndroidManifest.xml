@@ -51,6 +51,10 @@
             android:name="com.example.shamr.GraphActivity"
             android:label="@string/title_activity_graph" >
         </activity>
+        <activity
+            android:name="com.example.shamr.DoneActivity"
+            android:label="@string/title_activity_done" >
+        </activity>
     </application>
 
 </manifest>

@@ -12,6 +12,14 @@
         android:layout_height="match_parent" >
     </android.view.SurfaceView>
 
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+		android:adjustViewBounds="true"
+        android:rotation="270"
+        android:src="@drawable/license_panel" />
+
     <Button
         android:id="@+id/cameraButton"
         android:layout_width="wrap_content"
@@ -20,6 +28,6 @@
         android:layout_centerVertical="true"
         android:onClick="onCameraButtonClicked"
         android:rotation="270"
-        android:text="Button" />
+        android:text="Continue" />
 
 </RelativeLayout>

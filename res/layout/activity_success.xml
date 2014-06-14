@@ -8,42 +8,40 @@
     android:orientation="vertical"
     android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
     tools:context="com.example.shamr.LoginActivity" >
- 	
- 	<ImageView
- 	    android:id="@+id/profile_pic"
- 	    android:src="@drawable/profile_pic"
- 	    android:layout_width="200dp"
- 	    android:layout_height="200dp"
- 	    />
- 	
- 	<TextView
- 	    android:id="@+id/congrats"
- 	    android:text="@string/congrats"
- 	    android:layout_width="250dp"
-    	android:layout_height="wrap_content"
-    	android:gravity="center"
-    	android:layout_marginTop="30dp"
-    	android:layout_marginBottom="30dp"
-    	android:textSize="30sp"
- 	    />
- 	
- 	<TextView
- 	    android:id="@+id/congrats2"
- 	    android:text="@string/congrats_dialog"
- 	    android:layout_width="250dp"
-    	android:layout_height="wrap_content"
-    	android:gravity="center"
-    	android:layout_marginBottom="30dp"
-    	android:textSize="20sp"
- 	    />
- 	
- 	<ImageView
- 	    android:id="@+id/camera_bar"
- 	    android:src="@drawable/camera_bar"
- 	    android:layout_width="fill_parent"
- 	    android:layout_height="100dp"
- 	    android:background="@color/black"
- 	    android:onClick="continueTapped"
- 	    />
- 	
+
+    <ImageView
+        android:id="@+id/profile_pic"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/profile_pic" />
+
+    <TextView
+        android:id="@+id/congrats"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="@string/congrats"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/congrats2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:text="@string/congrats_dialog"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/camera_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:background="@color/black"
+        android:onClick="continueTapped"
+        android:src="@drawable/camera_bar" />
+
 </LinearLayout>
