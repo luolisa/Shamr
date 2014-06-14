@@ -3,5 +3,6 @@
 	<color name="flat_grey">#636363</color>
 	<color name="fb_blue">#44619d</color>
 	<color name="white">#FFFFFF</color>
+	<color name="black">#000000</color>
 	<color name="dark_grey">#696969</color>
 </resources>

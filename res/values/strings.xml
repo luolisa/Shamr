@@ -12,5 +12,7 @@
     <string name="fb_login_button">Login with Facebook</string>
     <string name="login_dialog">Harness the power of self-shaming today.</string>
     <string name="title_activity_graph">GraphActivity</string>
+    <string name="congrats">Congratulations!</string>
+    <string name="congrats_dialog">You are now on your way to a shameful existence!</string>
 
 </resources>
