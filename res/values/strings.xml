@@ -9,5 +9,8 @@
     <string name="title_activity_success">SuccessActivity</string>
     <string name="title_activity_camera">CameraActivity</string>
     <string name="title_activity_confirmation">ConfirmationActivity</string>
+    <string name="fb_login_button">Login with Facebook</string>
+    <string name="login_dialog">Harness the power of self-shaming today.</string>
+    <string name="title_activity_graph">GraphActivity</string>
 
 </resources>

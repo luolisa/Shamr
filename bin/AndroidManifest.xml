@@ -47,6 +47,10 @@
             android:name="com.example.shamr.ConfirmationActivity"
             android:label="@string/title_activity_confirmation" >
         </activity>
+        <activity
+            android:name="com.example.shamr.GraphActivity"
+            android:label="@string/title_activity_graph" >
+        </activity>
     </application>
 
 </manifest>
