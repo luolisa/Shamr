@@ -1,8 +1,8 @@
 package com.example.shamr;
 
+import android.app.Activity;
+import android.app.Fragment;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v7.app.ActionBarActivity;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -11,7 +11,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends Activity {
 	LinearLayout mLinearLayout;
 
 	@Override
@@ -21,8 +21,7 @@ public class MainActivity extends ActionBarActivity {
 		// main view is login button
 		setContentView(R.layout.activity_main);
 		if (savedInstanceState == null) {
-			getSupportFragmentManager().beginTransaction()
-					.add(R.id.container, new PlaceholderFragment()).commit();
+			getFragmentManager().beginTransaction().add(R.id.container, ((Fragment) new PlaceholderFragment())).commit();
 		}
 		
 	}
